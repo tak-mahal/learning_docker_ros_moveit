@@ -19,11 +19,19 @@ localhost:13389
 * ID: root
 * Passwd:moveit
 
-# Next Step
-http://docs.ros.org/melodic/api/moveit_tutorials/html/doc/getting_started/getting_started.html  
+# Moveit Tutorial
+http://docs.ros.org/melodic/api/moveit_tutorials/html/doc/getting_started/getting_started.html 
+## Getting Started
+### Download Example Package
+ 
 `cd ~/ws_moveit`  
 `mkdir src`  
 `git clone https://github.com/ros-planning/moveit_tutorials.git -b melodic-devel`  
+### Build your Catkin Workspace
 `cd ~/ws_moveit`  
 `catkin config --extend /opt/ros/melodic --cmake-args -DCMAKE_BUILD_TYPE=Release`  
 `catkin build`  
+## Moveit Setup Assistant
+`roslaunch moveit_setup_assistant setup_assistant.launch`
+## Move Group Python Interface
+`roslaunch panda_moveit_config demo.launch`
