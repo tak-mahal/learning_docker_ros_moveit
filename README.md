@@ -35,3 +35,6 @@ http://docs.ros.org/melodic/api/moveit_tutorials/html/doc/getting_started/gettin
 `roslaunch moveit_setup_assistant setup_assistant.launch`
 ## Move Group Python Interface
 `roslaunch panda_moveit_config demo.launch`
+# Next Step
+## RosBridge
+`roslaunch rosbridge_server rosbridge_websocket.launch`
