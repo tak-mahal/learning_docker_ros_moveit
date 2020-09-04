@@ -1,5 +1,5 @@
 # Settings
-## Run  
+## Docker Run  
 Example command to run container from this image.  
 Make sure to replace **your_container_name** and **your/local/directory(not yet exist)** to your own information.
 <pre>  
