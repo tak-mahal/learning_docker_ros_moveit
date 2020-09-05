@@ -1,6 +1,6 @@
 # Settings
 ## Docker Run  
-Example command to run container from this image.  
+Example command to run. 
 Make sure to replace **your_container_name** and **your/local/directory(not yet exist)** to your own information.
 <pre>  
 docker run -it --name=<b>your_containr_name</b> -p 9090:9090 -p 27017:27017 -p 13389:3389 -v <b>your/local/directory(not yet exist)</b>:/root/ws_moveit takumakawakami/tk_ros_moveit_xrdp:version2
