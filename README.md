@@ -9,7 +9,7 @@ Example:
 <pre>
 docker run -it --name=ros_moveit_dt -p 9090:9090 -p 27017:27017 -p 13389:3389 -v C:\Users\tak-mahal\Documents\docker\ws_moveit:/root/ws_moveit takumakawakami/tk_ros_moveit_xrdp:version2
 </pre>
-### If you have your container
+### If you already have your container
 #### Start your container
 <pre>
 docker container start <b>your_container_name</b> 
