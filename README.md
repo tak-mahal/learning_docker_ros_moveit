@@ -18,9 +18,9 @@ docker container start <b>your_container_name</b>
 <pre>
 docker exec -it <b>your_container_name</b> /bin/bash
 </pre>
-#### *How to log out*
+#### (*How to log out*)
 `exit`
-#### *How to stop*
+#### (*How to stop*)
 <pre>
 docker container stop <b>your_container_name</b>
 </pre>
